@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/source-code-pro-v7-latin-700.eot');
+    src: local('Source Code Pro Bold'), local('SourceCodePro-Bold'),
+    url('../fonts/source-code-pro-v7-latin-700.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/source-code-pro-v7-latin-700.woff2') format('woff2'),
+    url('../fonts/source-code-pro-v7-latin-700.woff') format('woff'),
+    url('../fonts/source-code-pro-v7-latin-700.ttf') format('truetype'),
+    url('../fonts/source-code-pro-v7-latin-700.svg#SourceCodePro') format('svg');
+}
+
+#time {
+    font-family: "Source Code Pro", monospace;
+    font-weight: 700;
+    font-size: 170px;
+    padding-top: 250px;
+    text-align: center;
+}
+
+.original {
+    background-color: #1e2424;
+    color: #0090B0;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.white {
+    background-color: white;
+    color: black;
+}
+
+.dark {
+    background-color: #002b36;
+    color: #839496;
+}
+
+.light {
+    background-color: #fdf6e3;
+    color: #657b83;
+}
